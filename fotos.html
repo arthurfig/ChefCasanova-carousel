@@ -1,0 +1,157 @@
+<!Doctype html>
+<html>
+    <head>
+        <title> Casanova Buffet
+          
+        </title>
+        <link rel="stylesheet" href="src/fotos.css" type="text/css" charset="utf-8" />
+        <link href="https://fonts.googleapis.com/css?family=Niconne&display=swap" rel="stylesheet"> 
+         <meta name="viewport" content="width=device-width, user-scalable=no"/>
+	<script src="src/index.js">
+    </script>
+    </head>
+    <body class="fadeIn">
+        
+        <section class="container">
+        
+            
+            <header>
+                                  
+                    
+            </header>
+            
+            
+            <nav>
+                <img src="/img/chef_menu.png" style="width:60px;height:60px;margin-top: 20px; margin-left: 380px;">
+              <div class="menu">
+                 <div class="menu-nav">
+                  
+                    
+                    <a href="/index.html" >HOME</a>
+                    <a href="/sobre.html">SOBRE</a>
+                    <a href="/fotos.html">FOTOS</a>
+                    <a href="/contato.html">CONTATO</a>                                     
+                    
+
+                </div>
+              </div>
+            
+            </nav>
+
+
+            </section>
+          </br>
+        <!-- Slideshow container -->
+        <div class="slideshow-container">
+
+          <div class="mySlides fade">
+            <img src="./img/carrossel/food (1).jpg" style="width:150%">
+          </div>
+          
+          <div class="mySlides fade">
+            <img src="./img/carrossel/food (2).jpg" style="width:150%">
+          </div>
+          
+          <div class="mySlides fade">
+            <img src="./img/carrossel/food (3).jpg" style="width:150%">
+          </div>
+
+          <div class="mySlides fade">
+            <img src="./img/carrossel/food (4).jpg" style="width:150%">
+          </div>
+          
+          <div class="mySlides fade">
+            <img src="./img/carrossel/food (5).jpg" style="width:150%">
+          </div>
+          
+          <div class="mySlides fade">
+            <img src="./img/carrossel/food (6).jpg" style="width:150%">
+          </div>
+
+          <div class="mySlides fade">
+            <img src="./img/carrossel/food (7).jpg" style="width:150%">
+          </div>
+          
+          <div class="mySlides fade">
+            <img src="./img/carrossel/food (8).jpg" style="width:150%">
+          </div>
+          
+          <div class="mySlides fade">
+            <img src="./img/carrossel/food (9).jpg" style="width:150%">
+          </div>
+
+          <div class="mySlides fade">
+            <img src="./img/carrossel/food (10).jpg" style="width:150%">
+          </div>
+          
+          <div class="mySlides fade">
+            <img src="./img/carrossel/food (11).jpg" style="width:150%">
+          </div>
+          
+          <div class="mySlides fade">
+            <img src="./img/carrossel/food (12).jpg" style="width:150%">
+          </div>
+
+          <div class="mySlides fade">
+            <img src="./img/carrossel/food (13).jpg" style="width:150%">
+          </div>
+          
+          <div class="mySlides fade">
+            <img src="./img/carrossel/food (14).jpg" style="width:150%">
+          </div>
+          
+          <div class="mySlides fade">
+            <img src="./img/carrossel/food (15).jpg" style="width:150%">
+          </div>
+          
+          </div>
+          <br>
+          
+          <div style="text-align:center">
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+            <span class="dot"></span>
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+          </div>
+<script>
+  var slideIndex = 0;
+  showSlides();
+  
+  function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 2000); // Change image every 2 seconds
+  }
+  </script>
+
+
+        
+            <section class="frase"></br><br><br><br>
+                 <p> “"A vida é como cozinhar: antes de escolher o que gosta,<br> prove um pouco de tudo." (Paulo Coelho)</p>
+            </section>
+                    
+        
+    </body>
+</html>
