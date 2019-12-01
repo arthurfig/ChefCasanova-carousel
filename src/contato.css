@@ -236,12 +236,13 @@ animation: fadeIn 3s ease-in-out;
     flex-wrap: wrap;
     justify-content: center;
 }
-#name,#email,#feddback,#celular, ::placeholder{
+#name,#email,#feedback,#celular, ::placeholder{
     font-family: Niconne;
     font-weight: bold;
     padding: 10px;
     font-size: 25px;
 }
+
 .messenger {
     display: flex;
     flex-wrap: wrap;
